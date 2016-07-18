@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ValidateCheckTest" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6Zm-cE-9uN">
+                                <rect key="frame" x="0.0" y="20" width="600" height="580"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mDv-cT-kvx">
+                                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                        <subviews>
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="半角全角指定なし" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="Vz4-7L-SCe" customClass="MyTextField" customModule="ValidateCheckTest" customModuleProvider="target">
+                                                <rect key="frame" x="150" y="27" width="300" height="40"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="40" id="hRz-JF-aPh"/>
+                                                    <constraint firstAttribute="width" constant="300" id="p76-rd-P1N"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="全角に変換されます" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="1R7-NN-8E8" customClass="MyTextField" customModule="ValidateCheckTest" customModuleProvider="target">
+                                                <rect key="frame" x="150" y="112" width="300" height="40"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="40" id="pbe-zg-xbs"/>
+                                                    <constraint firstAttribute="width" constant="300" id="tt6-rk-EOx"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="全角カタカナに変換されます" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="s4Q-3E-wYn" customClass="MyTextField" customModule="ValidateCheckTest" customModuleProvider="target">
+                                                <rect key="frame" x="150" y="178" width="300" height="40"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="40" id="vbb-XC-sZs"/>
+                                                    <constraint firstAttribute="width" constant="300" id="wCD-PA-m1N"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="メールアドレスを入力" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="68e-Ol-sgO" customClass="MyTextField" customModule="ValidateCheckTest" customModuleProvider="target">
+                                                <rect key="frame" x="150" y="246" width="300" height="40"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="40" id="dZK-Cu-s6L"/>
+                                                    <constraint firstAttribute="width" constant="300" id="mGu-a4-Mlp"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="半角文字の入力を行います" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="vdz-vM-tzV" customClass="MyTextField" customModule="ValidateCheckTest" customModuleProvider="target">
+                                                <rect key="frame" x="150" y="316" width="300" height="40"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="300" id="0Qh-M1-aNW"/>
+                                                    <constraint firstAttribute="height" constant="40" id="iUC-ti-22M"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <gestureRecognizers/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="600" id="0Hf-TQ-V2H"/>
+                                            <constraint firstItem="vdz-vM-tzV" firstAttribute="centerX" secondItem="mDv-cT-kvx" secondAttribute="centerX" id="8Bh-oR-RCj"/>
+                                            <constraint firstItem="vdz-vM-tzV" firstAttribute="top" secondItem="68e-Ol-sgO" secondAttribute="bottom" constant="30" id="Khk-Gm-xv8"/>
+                                            <constraint firstItem="1R7-NN-8E8" firstAttribute="centerX" secondItem="mDv-cT-kvx" secondAttribute="centerX" id="L30-jU-ff1"/>
+                                            <constraint firstItem="s4Q-3E-wYn" firstAttribute="width" secondItem="1R7-NN-8E8" secondAttribute="width" id="PoA-mp-Jrz"/>
+                                            <constraint firstItem="68e-Ol-sgO" firstAttribute="top" secondItem="s4Q-3E-wYn" secondAttribute="bottom" constant="28" id="anC-CU-0QQ"/>
+                                            <constraint firstItem="Vz4-7L-SCe" firstAttribute="centerX" secondItem="mDv-cT-kvx" secondAttribute="centerX" id="lzq-LN-uQx"/>
+                                            <constraint firstItem="1R7-NN-8E8" firstAttribute="top" secondItem="Vz4-7L-SCe" secondAttribute="bottom" constant="45" id="mKB-0x-UXl"/>
+                                            <constraint firstItem="68e-Ol-sgO" firstAttribute="centerX" secondItem="mDv-cT-kvx" secondAttribute="centerX" id="mzH-o0-xfO"/>
+                                            <constraint firstItem="s4Q-3E-wYn" firstAttribute="top" secondItem="1R7-NN-8E8" secondAttribute="bottom" constant="26" id="tBo-KU-0Hr"/>
+                                            <constraint firstItem="Vz4-7L-SCe" firstAttribute="top" secondItem="mDv-cT-kvx" secondAttribute="top" constant="27" id="wAr-Ss-XSp"/>
+                                            <constraint firstItem="s4Q-3E-wYn" firstAttribute="centerX" secondItem="mDv-cT-kvx" secondAttribute="centerX" id="wY6-hs-QVG"/>
+                                        </constraints>
+                                        <connections>
+                                            <outletCollection property="gestureRecognizers" destination="wuJ-xe-KLZ" appends="YES" id="rN5-g3-J5p"/>
+                                        </connections>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="mDv-cT-kvx" firstAttribute="leading" secondItem="6Zm-cE-9uN" secondAttribute="leading" id="LeW-DY-Kn7"/>
+                                    <constraint firstAttribute="trailing" secondItem="mDv-cT-kvx" secondAttribute="trailing" id="QIW-28-7hr"/>
+                                    <constraint firstAttribute="bottom" secondItem="mDv-cT-kvx" secondAttribute="bottom" id="ejO-sj-nEA"/>
+                                    <constraint firstItem="mDv-cT-kvx" firstAttribute="top" secondItem="6Zm-cE-9uN" secondAttribute="top" id="hzf-Gw-WJe"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="6Zm-cE-9uN" secondAttribute="bottom" id="ARN-rV-ww3"/>
+                            <constraint firstAttribute="trailing" secondItem="6Zm-cE-9uN" secondAttribute="trailing" id="GjG-Hl-Qe3"/>
+                            <constraint firstItem="6Zm-cE-9uN" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="KiG-QU-oxR"/>
+                            <constraint firstItem="mDv-cT-kvx" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="QaR-av-7ON"/>
+                            <constraint firstItem="6Zm-cE-9uN" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="uaP-dA-UWP"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="forConvertFullSize" destination="1R7-NN-8E8" id="CSn-ya-XjS"/>
+                        <outlet property="forConvertToKatakana" destination="s4Q-3E-wYn" id="LXX-Xw-feP"/>
+                        <outlet property="mailAddress" destination="68e-Ol-sgO" id="KV1-HB-SVV"/>
+                        <outlet property="onlyHalfSizeInput" destination="vdz-vM-tzV" id="HZr-V5-FSx"/>
+                        <outlet property="textField01" destination="Vz4-7L-SCe" id="uc9-6W-T0o"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="wuJ-xe-KLZ">
+                    <connections>
+                        <action selector="onTapBGView:" destination="BYZ-38-t0r" id="xOg-m3-atq"/>
+                    </connections>
+                </tapGestureRecognizer>
+            </objects>
+        </scene>
+    </scenes>
+</document>
