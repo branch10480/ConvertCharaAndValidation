@@ -1,0 +1,2 @@
+# ConvertCharaAndValidation
+文字変換＆バリデーションチェックサンプル
